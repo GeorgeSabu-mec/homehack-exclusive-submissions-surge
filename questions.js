@@ -25,7 +25,7 @@ var questions = [
        $("h3").fadeOut(function() {
           $(this).text(questions[i]).fadeIn();
         });
-       if(i>=questions.length){
+       if(i>=questions.length)
        $(".Heading #choice").fadeOut("slow");
        
        if(choices.indexOf("y")>=0)
